@@ -1,0 +1,14 @@
+@mixin font-size($font-size: 16px, $color: #FFF) {
+    font-family: Roboto, sans-serif;
+    font-size  : $font-size;
+    font-weight: normal;
+    line-height: 120%;
+    color      : $color;
+    margin     : 0;
+}
+
+@mixin button ($padding: 19.5px 23px, $background) {
+    padding      : $padding;
+    background   : $background;
+    border-radius: 4px;
+}

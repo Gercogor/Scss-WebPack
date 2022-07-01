@@ -1,0 +1,49 @@
+.main__exclusive {
+    background: url(pic/exclusivePic/BGimg.png) no-repeat;
+}
+
+.main__design {
+    background: url(pic/designPic/BGdesign.png) no-repeat;
+}
+
+.main__design_color {
+    background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%);
+}
+
+
+@media screen and (min-width: 500px) {
+    .slide__inner-1>.slide__inner-img {
+        content: url(pic/Star-Wars-Battlefront-II-combat.png);
+    }
+
+    .slide__inner-2>.slide__inner-img {
+        content: url(pic/Star-Wars-Battlefront-II-combat.png);
+    }
+
+    .main__exclusive {
+        background: url(pic/exclusivePic/BGimgTablet.png) no-repeat;
+    }
+
+    .main__design {
+        background: url(pic/designPic/BGdesignTablet.png) no-repeat;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .slide__inner-1>.slide__inner-img {
+        content: url(pic/Star-Wars-Battlefront-II-combat-Desctop.png);
+    }
+
+    .slide__inner-2>.slide__inner-img {
+        content: url(pic/Star-Wars-Battlefront-II-combat-Desctop.png);
+    }
+
+    .main__exclusive {
+        background: url(pic/exclusivePic/BGimgDesktop.png) no-repeat;
+    }
+
+    .main__design {
+        background: url(pic/designPic/BGdesignDesktop.png) no-repeat;
+    }
+}
